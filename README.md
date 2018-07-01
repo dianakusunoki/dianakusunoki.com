@@ -1,2 +1,1 @@
-# dianakusunoki.com
-personal website
+# dianakusunoki
