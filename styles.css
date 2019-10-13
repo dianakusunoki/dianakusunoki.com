@@ -28,6 +28,7 @@ main {
 /* DROPDOWN MENU */
 
 .dropdown-menu{
+  max-width: 305px;
   margin-top: 1px;
   padding: 0px;
   background: #fcfcfc;
