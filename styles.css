@@ -29,7 +29,7 @@ main {
 
 .dropdown-menu{
   z-index: 300;
-  display: inline-block;
+  display: none;
   position: relative;
   overflow: auto;
   max-width: 305px;
@@ -42,7 +42,6 @@ main {
 }
 .dropdown-menu li {
   position: relative;
-  display: none;
   margin: 0;
   padding: 8px 16px;
   text-align: left;
