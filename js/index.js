@@ -1,4 +1,4 @@
-u$(document).ready(function() {
+$(document).ready(function() {
     $(".nav-toggle").click(function(e){
         e.preventDefault();
         if($( window ).width() <= "800") {
