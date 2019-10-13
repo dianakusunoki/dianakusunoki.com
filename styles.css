@@ -86,6 +86,7 @@ main {
     a:hover {color: #1e83b5;}
     a.link {word-break: break-all;}
     .centered {text-align: center;}
+    .right-aligned {text-align: right;}
     .semi-bold {font-weight: 400;}
     p {
         margin: 0 0 20px;
