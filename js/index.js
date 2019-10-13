@@ -32,23 +32,5 @@ u$(document).ready(function() {
         }
     });
 
-	/* toggle dropdown */
-	function openButtonDropdown() {
-	  document.getElementById("sectionDropdown").classList.toggle("show");
-	}
-
-	/* close the dropdown if the user clicks outside of it */
-	window.onclick = function(event) {
-	  if (!event.target.matches('.dropdown-toggle')) {
-	    var dropdowns = document.getElementsByClassName("dropdown-menu");
-	    var i;
-	    for (i = 0; i < dropdowns.length; i++) {
-	      var openButtonDropdown = dropdowns[i];
-	      if (openButtonDropdown.classList.contains('show')) {
-		openButtonDropdown.classList.remove('show');
-	      }
-	    }
-	  }
-	}
 	
 });
