@@ -802,3 +802,8 @@ main {
             #professional-awards p, #professional-activities-reviewing p {margin-bottom: 10px;}
             #academic .col-33 {display: block; width: 100%;}
         }
+
+/* OTHER */
+.fixed {
+    position: fixed;
+}
