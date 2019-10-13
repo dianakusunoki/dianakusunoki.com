@@ -1,4 +1,4 @@
-$(document).ready(function() {
+u$(document).ready(function() {
     $(".nav-toggle").click(function(e){
         e.preventDefault();
         if($( window ).width() <= "800") {
@@ -33,14 +33,14 @@ $(document).ready(function() {
     });
 
 	/* toggle dropdown */
-	function myFunction() {
-	  document.getElementById("myDropdown").classList.toggle("show");
+	function openButtonDropdown() {
+	  document.getElementById("smallDropdown").classList.toggle("show");
 	}
 
 	/* close the dropdown if the user clicks outside of it */
 	window.onclick = function(event) {
-	  if (!event.target.matches('.dropbtn')) {
-	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	  if (!event.target.matches('.btn-primary')) {
+	    var dropdowns = document.getElementsByClassName("dropdown-menu");
 	    var i;
 	    for (i = 0; i < dropdowns.length; i++) {
 	      var openDropdown = dropdowns[i];
