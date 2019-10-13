@@ -32,13 +32,6 @@ $(document).ready(function() {
         }
     });
 
-	  $(".dropdown-toggle").dropdown("toggle");
 	
-	  $(".dropdown").on("hide.bs.dropdown", function(){
-	    $(".btn").html('Dropdown <i class="fa fa-caret-down"></i>');
-	  });
-	  $(".dropdown").on("show.bs.dropdown", function(){
-	    $(".btn").html('Dropdown <i class="fa fa-caret-up"></i>');
-	  });
 	
 });
