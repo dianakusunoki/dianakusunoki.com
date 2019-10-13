@@ -34,18 +34,18 @@ u$(document).ready(function() {
 
 	/* toggle dropdown */
 	function openButtonDropdown() {
-	  document.getElementById("smallDropdown").classList.toggle("show");
+	  document.getElementById("sectionDropdown").classList.toggle("show");
 	}
 
 	/* close the dropdown if the user clicks outside of it */
 	window.onclick = function(event) {
-	  if (!event.target.matches('.btn-primary')) {
+	  if (!event.target.matches('.dropdown-toggle')) {
 	    var dropdowns = document.getElementsByClassName("dropdown-menu");
 	    var i;
 	    for (i = 0; i < dropdowns.length; i++) {
-	      var openDropdown = dropdowns[i];
-	      if (openDropdown.classList.contains('show')) {
-		openDropdown.classList.remove('show');
+	      var openButtonDropdown = dropdowns[i];
+	      if (openButtonDropdown.classList.contains('show')) {
+		openButtonDropdown.classList.remove('show');
 	      }
 	    }
 	  }
