@@ -217,6 +217,12 @@ main {
     .container-text:last-child {margin: 0;}
 
 
+/* SECTION DROPDOWN */
+    .section-dropdown {
+        margin: 20px 0 0 0;
+    }
+
+
 /* SECTIONS */
     .section {
         display: block;
