@@ -26,24 +26,6 @@ main {
     text-align: center;
 }
 
-/* SELECTION MENU */
-
-.custom-select{
-  position: relative;
-}
-.custom-select select{
-  display: none;
-}
-.
-.select-item {
-  position: absolute;
-  background-color: DodgerBlue;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
-
 /* TEXT */
     h1, h2, h3, h4, h5 {
         font-family: 'Raleway', Helvetica, Arial, sans-serif;
