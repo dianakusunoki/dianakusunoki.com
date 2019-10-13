@@ -26,28 +26,22 @@ main {
     text-align: center;
 }
 
-/* DROPDOWN MENU */
+/* SELECTION MENU */
 
-.dropdown-menu{
-  z-index: 300;
-  display: none;
+.custom-select{
   position: relative;
-  overflow: auto;
-  max-width: 305px;
-  margin-top: 1px;
-  padding: 0px;
-  background: #fcfcfc;
-  border: none;
-  border-radius: 0 0px 2px 2px;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
 }
-.dropdown-menu li {
-  position: relative;
-  margin: 0;
-  padding: 8px 16px;
-  text-align: left;
-  font-size: 14px;
-  color: #444;
+.custom-select select{
+  display: none;
+}
+.
+.select-item {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 
 /* TEXT */
