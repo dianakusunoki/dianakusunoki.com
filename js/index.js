@@ -32,11 +32,11 @@ $(document).ready(function() {
         }
     });
 	
-	$('.dropdown').click(function(toggleDropdown){
+	$('.dropdown').click(function(e){
 	    $(this).find('.dropdown-menu').toggleClass('show');
-	    $($(toggleDropdown.target).find('.down-caret').toggleClass('open-caret');
-	    toggleDropdown.preventDefault();
-	    toggleDropdown.stopPropagation();
+	    $($(e.target).find('.down-caret').toggleClass('open-caret');
+	    e.preventDefault();
+	    e.stopPropagation();
 	    $(document).click(function(){
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
