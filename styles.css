@@ -83,16 +83,18 @@ main {
 .show {display: block;}
 .hide {display: none;}
 
+/* SECTION DROPDOWN */
 .section-dropdown-container {
     display: flex;
 }
-.section-dropdown-right .section-dropdown-left {
+.section-dropdown-left, .section-dropdown-right {
     flex: auto;
 }
 
 .section-dropdown {
     margin: 0 0 24px 0;
 }
+
 
 /* TEXT */
     h1, h2, h3, h4, h5 {
