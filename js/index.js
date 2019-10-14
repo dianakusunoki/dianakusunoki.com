@@ -32,6 +32,9 @@ $(document).ready(function() {
         }
     });
 
+function openDropdown() {
+    document.getElementById("dropdown-menu").classList.toggle("show");
+}
 	
 	
 	
