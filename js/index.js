@@ -43,7 +43,7 @@ $(document).ready(function() {
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
 	    });
-	    $('li').click(function(){
+	    $('.dropdown-menu li').click(function(){
 	      $('.button-container').removeClass('dropdown-open');
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
