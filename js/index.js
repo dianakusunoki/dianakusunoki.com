@@ -34,12 +34,14 @@ $(document).ready(function() {
 	
 	$('.dropdown').click(function(e){
 	    $(this).find('.dropdown-menu').toggleClass('show');
-	    $(this).find('.down-caret').toggleClass('open-caret'));
+	    $(this).find('.section-dropdown > .button-container').toggleClass('dropdown-open');
+	    //$($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    //e.preventDefault();
 	    e.stopPropagation();
 	    $(document).click(function(){
 	      $('.dropdown-menu').removeClass('show');
-	      $('.down-caret').removeClass('open-caret');
+	      $('.section-dropdown > .button-container').removeClass('dropdown-open');
+	      //$('.down-caret').removeClass('open-caret');
 	    });
 	  });
 	
