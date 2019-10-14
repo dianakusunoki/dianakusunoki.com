@@ -46,16 +46,14 @@
 				<div class="col-75 right-aligned section-dropdown">
 					
 					<div class="dropdown">
-					  <button onhover="openDropdown()" class="dropbtn">Section</button>
-					  <div id="section-dropdown" class="dropdown-menu">
-					  	<ul>
+						<button onhover="openDropdown()" class="dropbtn">Section</button>
+						<ul id="dropdown-menu" class="dropdown-menu">
 							<li><a href="#skills">Skills in Research, Design & Development</a></li>
 							<li><a href="#strategy">Strategy, Processes & Communicationt</a></li>
 							<li><a href="#leadership">Leadership & Mentorship</a></li>
 							<li><a href="#awards">Awards, Honors, Grants & Scholarships</a></li>
 							<li><a href="#activities">Professional Activities</a></li>
 						</ul>
-					  </div>
 					</div>
 				</div>
 		       </div>
@@ -392,7 +390,7 @@
 	ga('send', 'pageview');
 	
 	function openDropdown() {
-    		document.getElementById("section-dropdown").classList.toggle("show");
+    		document.getElementById("dropdown-menu").classList.toggle("show");
     	};
 </script>
 </body>
