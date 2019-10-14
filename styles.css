@@ -850,7 +850,7 @@ main {
             #pdws .img-container, #tru-it .img-container {margin-bottom: 25px !important;}
         }
 
-    /* SMALLER THAN 600px */
+    /* SMALLER THAN 650px */
         @media only screen and (max-width: 650px) {
             a.anchor{display: block; position: relative; top: -120px; visibility: hidden;}
             h2 {max-width: 100%; white-space: normal;}
