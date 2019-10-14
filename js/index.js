@@ -5,7 +5,7 @@ $(document).ready(function() {
             $("header > .header-container > nav").fadeToggle("300");
         }
     });
-
+	
     $(document).click(function(e){
         if($( window ).width() <= "800") {
             if (!$(e.target).closest('header').length) {
@@ -32,10 +32,4 @@ $(document).ready(function() {
         }
     });
 
-function openDropdown() {
-    document.getElementById("section-dropdown").classList.toggle("show");
-}
-	
-	
-	
 });
