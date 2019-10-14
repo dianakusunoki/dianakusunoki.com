@@ -78,7 +78,10 @@ main {
     transition: 100ms all ease;
     -webkit-transition: 100ms all ease;
 }
-
+.open-caret {
+    transform: rotate(180deg);
+    transition: all .25s ease-out;
+}
 
 .show {display: block;}
 .hide {display: none;}
