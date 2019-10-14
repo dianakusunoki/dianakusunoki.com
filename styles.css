@@ -705,10 +705,6 @@ main {
                 min-width: 100%;
             }
             
-            .section-dropdown-container {display: flex; flex-flow: row wrap;}
-            .section-dropdown-left {width: 25%; order: 2;}
-            .section-dropdown-right {width: 75%; order: 1;}
-            
             #professional-awards p, #professional-activities-reviewing p {margin: 0;}
             #professional-activities-reviewing p:last-child {margin: 0 0 20px;}
             #academic .col-33 {width: calc(50% - 2px); display: inline-block;}
@@ -845,6 +841,10 @@ main {
             h2 {max-width: 100%; white-space: normal;}
             .hr-container-title {display: none;}
 
+            .section-dropdown-container {display: flex; flex-flow: row wrap;}
+            .section-dropdown-left {width: 100%; order: 2;}
+            .section-dropdown-right {width: 100%; order: 1;}
+            
             footer {height: 75px;}
             .footer-container {
                 left: 0;
