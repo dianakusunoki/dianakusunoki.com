@@ -34,9 +34,9 @@ $(document).ready(function() {
 	
 	$('.dropdown').click(function(toggleDropdown){
 	    $(this).find('.dropdown-menu').toggleClass('show');
-	    $($(e.target).find('.down-caret').toggleClass('open-caret');
-	    e.preventDefault();
-	    e.stopPropagation();
+	    $($(toggleDropdown.target).find('.down-caret').toggleClass('open-caret');
+	    toggleDropdown.preventDefault();
+	    toggleDropdown.stopPropagation();
 	    $(document).click(function(){
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
