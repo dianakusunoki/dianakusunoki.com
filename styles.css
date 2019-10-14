@@ -123,6 +123,7 @@ main {
     }
     .main-description h2 {
         margin: 0;
+        font-size: 20px;
         text-align: center;
         font-weight: 200;
         font-family: 'Petit Formal Script', 'Raleway', Helvetica, cursive;
