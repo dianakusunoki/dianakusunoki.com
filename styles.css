@@ -669,7 +669,6 @@ main {
 
     /* SMALLER THAN 900px */
         @media only screen and (max-width: 900px) {
-            a.anchor{display: block; position: relative; top: -150px; visibility: hidden;}
             p:last-child {margin-bottom: 20px;}
             .row {margin: 0;}
             .col-20, .col-25 .col-30, .col-33, .col-50, .col-66, .col-70, .col-75 {
@@ -823,6 +822,7 @@ main {
 
     /* SMALLER THAN 600px */
         @media only screen and (max-width: 650px) {
+            a.anchor{display: block; position: relative; top: -120px; visibility: hidden;}
             h2 {max-width: 100%; white-space: normal;}
             .hr-container-title {display: none;}
 
