@@ -704,6 +704,11 @@ main {
                 max-width: 100%;
                 min-width: 100%;
             }
+            
+            .section-dropdown-container {display: flex; flex-flow: row wrap;}
+            .section-dropdown-right {order: 1;}
+            .section-dropdown-left {order: 2;}
+            
             #professional-awards p, #professional-activities-reviewing p {margin: 0;}
             #professional-activities-reviewing p:last-child {margin: 0 0 20px;}
             #academic .col-33 {width: calc(50% - 2px); display: inline-block;}
@@ -839,10 +844,6 @@ main {
             a.anchor{display: block; position: relative; top: -120px; visibility: hidden;}
             h2 {max-width: 100%; white-space: normal;}
             .hr-container-title {display: none;}
-            
-            .section-dropdown-container {display: flex; flex-flow: row wrap;}
-            .section-dropdown-right {order: 1;}
-
 
             footer {height: 75px;}
             .footer-container {
