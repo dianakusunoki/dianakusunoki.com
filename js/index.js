@@ -39,9 +39,9 @@ $(document).ready(function() {
 	    e.preventDefault();
 	    e.stopPropagation();
 	    $(document).click(function(){
-	      $('.button-container').toggleClass('dropdown-open');
-	      $('.dropdown-menu').toggleClass('show');
-	      $('.down-caret').toggleClass('open-caret');
+	      $('.button-container').removeClass('dropdown-open');
+	      $('.dropdown-menu').removeClass('show');
+	      $('.down-caret').removeClass('open-caret');
 	    });
 	    $('.dropdown-menu li').click(function(){
 	      $('.button-container').toggleClass('dropdown-open');
