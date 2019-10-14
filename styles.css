@@ -706,8 +706,8 @@ main {
             }
             
             .section-dropdown-container {display: flex; flex-flow: row wrap;}
-            .section-dropdown-right {order: 1;}
-            .section-dropdown-left {order: 2;}
+            .section-dropdown-left {width: 25%; order: 2;}
+            .section-dropdown-right {width: 75%; order: 1;}
             
             #professional-awards p, #professional-activities-reviewing p {margin: 0;}
             #professional-activities-reviewing p:last-child {margin: 0 0 20px;}
