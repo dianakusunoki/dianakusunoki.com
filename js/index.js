@@ -33,11 +33,11 @@ $(document).ready(function() {
     });
 
 	$(".dropdown").on("hide.bs.dropdown", function(){
-		$(".btn").html('Dropdown <span class="caret"></span>');
+		$(".button-container").html('Go to section <span class="caret"></span>');
 	});
 	
 	$(".dropdown").on("show.bs.dropdown", function(){
-		$(".btn").html('Dropdown <span class="caret caret-up"></span>');
+		$(".button-container").html('Go to section <span class="caret caret-up"></span>');
 	});
 	
 });
