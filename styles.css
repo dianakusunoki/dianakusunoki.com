@@ -43,7 +43,7 @@ main {
   padding: 16px;
   background-color: rgba(255, 255, 255, .97);
   width: auto;
-  min-width: 325px;
+  min-width: 300px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   right: 0;
@@ -59,7 +59,6 @@ main {
     letter-spacing: 1px;
     font-weight: 300;
     color: #7f7f7f;
-    padding: 8px;
 }
 .dropdown-menu li:hover {
     background-color: #d3f1eb;
@@ -68,16 +67,16 @@ main {
 .dropdown-menu li:hover a:hover {
     color: #1e83b5;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: .25px;
 }
 .dropdown-menu li:last-of-type {border-bottom: none;}
 .dropdown-menu a {
     display: block;
     color: #7f7f7f;
-    padding: 15px 0;
+    padding: 24px 8px;
     text-decoration: none;
-    transition: 250ms all ease;
-    -webkit-transition: 250ms all ease;
+    transition: 100ms all ease;
+    -webkit-transition: 100ms all ease;
 }
 
 
