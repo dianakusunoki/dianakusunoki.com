@@ -31,13 +31,5 @@ $(document).ready(function() {
             }
         }
     });
-
-	$(".dropdown").on("hide.bs.dropdown", function(){
-		$(".button-container").html('Go to section <span class="caret"></span>');
-	});
-	
-	$(".dropdown").on("show.bs.dropdown", function(){
-		$(".button-container").html('Go to section <span class="caret caret-up"></span>');
-	});
 	
 });
