@@ -31,9 +31,4 @@ $(document).ready(function() {
             }
         }
     });
-
-
-	$(document).click(function(){
-	  $("#dropdown-menu").hide();
-	});
 });
