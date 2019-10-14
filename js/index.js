@@ -43,11 +43,6 @@ $(document).ready(function() {
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
 	    });
-	    $('.dropdown-menu li').click(function(){
-	      $('.button-container').toggleClass('dropdown-open');
-	      $('.dropdown-menu').toggleClass('show');
-	      $('.down-caret').toggleClass('open-caret');
-	    });
 	  });
 	
 });
