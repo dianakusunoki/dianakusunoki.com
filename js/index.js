@@ -33,12 +33,12 @@ $(document).ready(function() {
     });
 	
 	$('.dropdown').click(function(e){
-	    $(this).find('.dropdown-menu').toggleClass('open');
+	    $(this).find('.dropdown-menu').toggleClass('show');
 	    $($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    e.preventDefault();
 	    e.stopPropagation();
 	    $(document).click(function(){
-	      $('.dropdown-menu').removeClass('open');
+	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
 	    });
 	  });
