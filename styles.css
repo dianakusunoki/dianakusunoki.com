@@ -176,7 +176,8 @@ main {
     .col-66{ width: 66%; }
     .col-70{ width: calc(70% - 2px); }
     .col-75{ width: calc(75% - 2px); }
-
+    
+    .section > .row > .col-33:last-child {padding: 0;}
 
 /* IMAGES */
     img {
