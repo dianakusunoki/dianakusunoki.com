@@ -41,7 +41,7 @@ $(document).ready(function() {
 	    $(document).click(function(){
 	      $('.button-container').removeClass('dropdown-open');
 	      $('.dropdown-menu').removeClass('show');
-	      $('.down-caret').removeClass('open-caret');
+	      $('.down-caret').removeClass('open-caret'));
 	    });
 	  });
 	
