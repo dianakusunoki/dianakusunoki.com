@@ -46,7 +46,7 @@
 				<div class="col-75 right-aligned section-dropdown">
 					
 					<div class="dropdown">
-						<div onhover="openDropdown()" class="button-container">Jump to section&nbsp;<i class="fa fa-caret-down"></i></div>
+						<div onclick="openDropdown()" class="button-container">Go to section&nbsp;<i class="fa fa-caret-down"></i></div>
 						<ul id="dropdown-menu" class="dropdown-menu">
 							<li><a href="#skills">Skills in Research, Design & Development</a></li>
 							<li><a href="#strategy">Strategy, Processes & Communicationt</a></li>
@@ -389,9 +389,9 @@
 	ga('create', 'UA-1329985-6', 'auto');
 	ga('send', 'pageview');
 	
-	function openDropdown() {
-    		document.getElementById("dropdown-menu").classList.toggle("show");
-    	};
+	(function openDropdown() {
+    		document.getElementById("dropdown-menu").classList.toggle("show");}
+	);
 </script>
 </body>
 </html>
