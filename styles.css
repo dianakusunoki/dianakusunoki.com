@@ -83,6 +83,13 @@ main {
 .show {display: block;}
 .hide {display: none;}
 
+.section-dropdown-container {
+    display: flex;
+}
+.section-dropdown-right .section-dropdown-left {
+    flex: auto;
+}
+
 .section-dropdown {
     margin: 0 0 24px 0;
 }
