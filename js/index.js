@@ -34,7 +34,7 @@ $(document).ready(function() {
 	
 	$('.dropdown').click(function(e){
 	    $(this).find('.button-container').toggleClass('dropdown-open');
-	    $(this).find('.dropdown-menu').toggleClass('show');
+	    $($(e.target).find('.dropdown-menu').toggleClass('show');
 	    $($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    e.preventDefault();
 	    e.stopPropagation();
@@ -43,7 +43,7 @@ $(document).ready(function() {
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
 	    });
-	    $(li).click(function(){
+	    $('li').click(function(){
 	      $('.button-container').removeClass('dropdown-open');
 	      $('.dropdown-menu').removeClass('show');
 	      $('.down-caret').removeClass('open-caret');
