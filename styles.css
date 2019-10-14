@@ -34,7 +34,6 @@ main {
   display: inline-block;
   width: auto; 
 }
-.dropdown-open {background-color: #1e83b5;}
 
 .dropdown-menu {
   display: none;
@@ -273,6 +272,8 @@ main {
         cursor: pointer;
     }
     .button-container:hover {background-color: #1e83b5;}
+    .dropdown-open {background-color: #1e83b5;}
+
 
 
 /* CONTENT CONTAINERS */
