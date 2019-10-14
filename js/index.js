@@ -38,7 +38,7 @@ $(document).ready(function() {
 	    e.preventDefault();
 	    e.stopPropagation();
 	    $(document).click(function(){
-	      $('.dropdown-menu').removeClass('show');
+	      $('.dropdown-menu').removeClass('show').fadeOut("300");
 	      //$('.down-caret').removeClass('open-caret');
 	    });
 	  });
