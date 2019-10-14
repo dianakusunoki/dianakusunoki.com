@@ -33,7 +33,7 @@ $(document).ready(function() {
     });
 	
 	$('.dropdown').click(function(e){
-	    $(this).find('.dropdown-menu').toggleClass('show');
+	    $(this).find('.dropdown-menu').toggleClass('show dropdown-open');
 	    $($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    e.preventDefault();
 	    e.stopPropagation();
