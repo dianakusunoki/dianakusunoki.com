@@ -33,7 +33,8 @@ $(document).ready(function() {
     });
 	
 	$('.dropdown').click(function(e){
-	    $(this).find('.dropdown-menu').toggleClass('show dropdown-open');
+	    $(this).find('.button-container').toggleClass('dropdown-open');
+	    $(this).find('.dropdown-menu').toggleClass('show');
 	    $($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    e.preventDefault();
 	    e.stopPropagation();
