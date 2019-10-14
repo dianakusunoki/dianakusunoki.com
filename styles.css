@@ -32,9 +32,9 @@ main {
   float: right;
   position: relative;
   display: inline-block;
-  width: auto;
-  
+  width: auto; 
 }
+.dropdown-open {background-color: #1e83b5;}
 
 .dropdown-menu {
   display: none;
