@@ -52,6 +52,10 @@ main {
   display: block;
 }
 
+.dropdown-menu ul li:hover > ul {
+  display: block;
+}
+
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
