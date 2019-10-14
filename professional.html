@@ -47,7 +47,7 @@
 				<div class="section-dropdown-right right-aligned">
 					
 					<div class="dropdown section-dropdown">
-						<div onclick="toggleDropdown()" class="button-container">Go to section&nbsp;<i class="fa fa-caret-down"></i></div>
+						<div onclick="toggleDropdown()" class="button-container">Go to section&nbsp;<i id="dropdown-icon" class="fa fa-caret-down"></i></div>
 						<ul id="dropdown-menu" class="dropdown-menu">
 							<li onclick="toggleDropdown()"><a href="#skills">skills in research, design & development</a></li>
 							<li onclick="toggleDropdown()"><a href="#strategy">strategy, processes & communication</a></li>
@@ -399,7 +399,9 @@
 	ga('send', 'pageview');
 	
 	function toggleDropdown() {
-    		document.getElementById("dropdown-menu").classList.toggle("show");}
+    		document.getElementById("dropdown-menu").classList.toggle("show");
+		document.getElementById("dropdown-icon").classList.rotate180("fa-caret-down");
+	}
 </script>
 </body>
 </html>
