@@ -40,7 +40,7 @@ main {
   display: none;
   position: absolute;
   margin: 4px 0 0 0;
-  padding: 16px 0;
+  padding: 16px;
   background-color: rgba(255, 255, 255, .97);
   width: auto;
   min-width: 325px;
@@ -52,14 +52,6 @@ main {
   text-align: left;
   line-height: 0;
 }
-
-.dropdown-menu a {
-  color: #7f7f7f;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
 .dropdown-menu li {
     border-bottom: 1px solid rgba(0,0,0,.05);
     position: relative;
@@ -76,7 +68,7 @@ main {
 .dropdown-menu li:hover a:hover {
     color: #1e83b5;
     font-weight: 400;
-    letter-spacing: 1.01px;
+    letter-spacing: .5px;
 }
 .dropdown-menu li:last-of-type {border-bottom: none;}
 .dropdown-menu a {
