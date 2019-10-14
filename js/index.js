@@ -34,7 +34,7 @@ $(document).ready(function() {
 	
 	$('.dropdown').click(function(e){
 	    $(this).find('.dropdown-menu').toggleClass('open');
-	    $($(e.target).find('.down-caret').toggleClass('open-caret');
+	    $($(e.target).find('.down-caret').toggleClass('open-caret'));
 	    e.preventDefault();
 	    e.stopPropagation();
 	    $(document).click(function(){
