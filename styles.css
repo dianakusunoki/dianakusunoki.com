@@ -82,10 +82,9 @@ main {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 5px 5px 0 5px;
+  border-width: 4px 4px 0 4px;
   border-color: #ffffff transparent transparent transparent;
   display: inline-block;
-  margin-left: 4px;
   position: relative;
   transform: rotate(0deg);
   transition: all .25s ease-in;
@@ -162,6 +161,7 @@ main {
     a.link {word-break: break-all;}
     .centered {text-align: center;}
     .right-aligned {text-align: right;}
+    .justified {text-align: justify;}
     .semi-bold {font-weight: 400;}
     
     a.anchor{display: block; position: relative; top: -80px; visibility: hidden;}
@@ -172,7 +172,26 @@ main {
         text-align: justify;
     }
     p:last-child {margin: 0;}
+
     .main-description p {text-align: center;}
+    .blue {color: #1e83b5;}
+
+/* ICONS */
+    .icon-left {margin: 4px 4px 4px 0;}
+    .icon-right {margin: 4px 0 4px 4px;}
+
+    
+/* LISTS */
+    .ul-diamond {padding: 0;}
+    .ul-diamond li {
+        list-style: none;
+        padding: 0 0 4px 0;
+    }
+    .ul-diamond li::before {
+        content: '\25c7';
+        padding-right: 8px;
+        color: #74a0b6;
+    }
 
 
 /* ROWS AND COLUMNS */
@@ -255,7 +274,7 @@ main {
 
 
 /* BUTTONS */
-    .button-container {
+    .btn {
         display: inline-flex;
         display: -webkit-inline-flex;
         display: -moz-inline-flex;
@@ -266,15 +285,38 @@ main {
         border-radius: 2px;
         padding: 0 15px;
         height: 40px;
-        background-color: #2c6885;
         letter-spacing: 1px;
         font-family: 'Lato', Arial, Helvetica, sans-serif;
         font-weight: 400;
         font-size: 12px;
-        color: #fff;
         cursor: pointer;
     }
-    .button-container:hover {background-color: #1e83b5;}
+    .btn-primary {
+        background-color: #2c6885;
+        color: #fff;
+    }
+    .btn-primary:hover {
+        background-color: #1e83b5;
+        color: #fff;
+    }
+    
+    .btn-secondary {
+        border: solid 1px #2c6885;
+        color: #2c6885;
+    }
+    .btn-secondary:hover {
+        border: solid 1px #1e83b5;
+        color: #1e83b5;
+    }
+    .btn-highlight {
+        border: solid 1px #ec8072;
+        color: #ec8072;
+    }
+    .btn-highlight:hover {
+        border: solid 1px #db6158;
+        color: #db6158;
+    }
+    
     .dropdown-open {background-color: #1e83b5;}
 
 
@@ -342,6 +384,7 @@ main {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
+    margin: 0;
 }
 .section-dropdown-left, .section-dropdown-right {
     flex: auto;
