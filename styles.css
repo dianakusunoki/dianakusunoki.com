@@ -224,13 +224,31 @@ main {
         height: auto;
     }
     .img-sidebar {margin-top: 4px; padding: 0;}
-    .img-container {margin-bottom: 25px; padding: 0;}
+    .img-container {
+        margin-bottom: 25px; padding: 0;
+        max-width: 500px;
+    }
     .img-frame  {
         display: block;
         position: relative;
         z-index: 1;
         vertical-align: middle;
         max-width: 100%;
+    }
+    .img-frame-circle  {
+        display: block;
+        border-radius: 100%;
+        position: relative;
+        z-index: 1;
+        vertical-align: middle;
+        max-width: 100%;
+        background-color: #fff;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+        padding: 16px;
+    }
+    .img-gallery {
+        max-height: 500px;
+        margin: 0 0 40px 0;
     }
     .shadow {overflow: visible;}
     .shadow:before {
